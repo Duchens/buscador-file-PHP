@@ -4,9 +4,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="author" content="Jean-Pierre-Duchens">
 <title>El buscador</title>
-
-
 </head>
+<body>
+
 <?php
 
 include('funciones.php'); // Llamada funciones
@@ -28,6 +28,6 @@ while (false != $documento = docuInt($entrada)) //bucle while que se ejecuta has
 	fclose($ficheroSalida); //cerramos fichero
 
 ?>
-<body>
+
 </body>
 </html>
